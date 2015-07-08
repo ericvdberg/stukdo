@@ -5,6 +5,9 @@
   To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
   =require twitter-bootstrap-static/fontawesome
   */
+  h1, h2, h3, p, a, label {
+  	color: white;
+  }  
   .panel-default a{
   	color: black;
   }
@@ -30,15 +33,15 @@
   }
   .btn-register {
   	background-color: rgba(255, 255, 255, 0.19);
-	color: #FFF;
-	border: 3px solid rgba(255, 255, 255, 0);
+  	color: #FFF;
+  	border: 3px solid rgba(255, 255, 255, 0);
   	border-radius: 4px;
   	margin-right: 10px;
   }
   .btn-register:hover {
-	background-color: rgba(255, 255, 255, 0.19);
-	color: #FFF;
-	border: 3px solid rgba(255, 255, 255, 0);
+  	background-color: rgba(255, 255, 255, 0.19);
+  	color: #FFF;
+  	border: 3px solid rgba(255, 255, 255, 0);
   	border-radius: 4px;
   	margin-right: 10px;
   }
@@ -50,7 +53,7 @@
   	margin-right: 10px;
   }
   .btn-login:hover {
-	color: #FFF;
+  	color: #FFF;
   }
 
   .panel-homepage{
@@ -68,13 +71,13 @@
   .bg-homepage{
   	background: url(paper.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 100vh;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	min-height: 100vh;
   }
   .container a:hover {
-    color: white;
+  	color: white;
   }
   .bg-layer {
   	background-color: rgba(0, 77, 152, 0.9);
@@ -82,23 +85,14 @@
   }
   .jumbotron {
   	background-color: transparent;
-    color: #FFFCFC;
-    margin-top: 75px;
-	-moz-box-shadow:    inset 0 0 1px #000000;
-   -webkit-box-shadow: inset 0 0 1px #000000;
-   box-shadow:         inset 0 0 1px #000000;
+  	color: #FFFCFC;
+  	margin-top: 75px;
+  	-moz-box-shadow:    inset 0 0 1px #000000;
+  	-webkit-box-shadow: inset 0 0 1px #000000;
+  	box-shadow:         inset 0 0 1px #000000;
   }
   .navbar-default{
   	background-color: white;
-  }
-  h1 {
-  	color: white;
-  }
-  h2 {
-  	color: white;
-  }
-  h3 {
-  	color: white;
   }
   .panel-heading p {
   	color: black;
@@ -106,15 +100,7 @@
   .panel-body p {
   	color: black;
   }
-  label {
-  	color: white;
-  }
-  p {
-  	color: white;
-  }
   .password p {
   	color: white;
   }
-  a {
-  	color: white;
-  }
+  
